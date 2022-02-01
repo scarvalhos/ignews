@@ -18,17 +18,17 @@ This is a blog project developed on Rocketseat's Ignite program.
 
 -In the home page the user can subscribe to the blog being directed to the stripe payments api or sign in the with github account;
 
-![Home Page](https://www.figma.com/file/4WtSiShn3esJPmVV0Fxi3h/ig.news-(Copy)?node-id=1%3A3)
+![Home Page](https://github.com/[scarvalhos]/[ignews]/blob/[main]/assets/home.png?raw=true)
 
 -In the posts page, the user will see a list of all the post on the blog.
 
-![Posts Page](https://www.figma.com/file/4WtSiShn3esJPmVV0Fxi3h/ig.news-(Copy)?node-id=1%3A5)
+![Posts Page](https://github.com/[scarvalhos]/[ignews]/blob/[main]/assets/posts.png?raw=true)
 
 -in the specific post page, if the user does not have a subscription or is not logged in, he will see a small snippet of the post. If not, he will see the full post.
 
-![Post Page](https://www.figma.com/file/4WtSiShn3esJPmVV0Fxi3h/ig.news-(Copy)?node-id=1%3A7)
+![Post Page](https://github.com/[scarvalhos]/[ignews]/blob/[main]/assets/interna-nao-logado.png?raw=true)
 
-![Post Page](https://www.figma.com/file/4WtSiShn3esJPmVV0Fxi3h/ig.news-(Copy)?node-id=1%3A7)
+![Post Page](https://github.com/[scarvalhos]/[ignews]/blob/[main]/assets/interna-de-post.png?raw=true)
 
 
 ## Getting Started
