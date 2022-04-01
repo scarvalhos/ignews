@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import { FaHeart } from 'react-icons/fa'
 
 import { stripe } from '../services/stripe'
@@ -32,7 +33,7 @@ export default function Home({ product }: HomeProps) {
           <SubscribeButton />
         </section>
 
-        <img src="/images/avatar.svg" alt="Girl Coding" />
+        <Image src="/images/avatar.svg" alt="Girl Coding" />
       </main>
     </>
   )
