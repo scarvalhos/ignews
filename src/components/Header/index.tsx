@@ -10,7 +10,7 @@ export function Header() {
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
-                <Image src="/images/logo.svg" alt="Ignews" />
+                <Image src="/images/logo.svg" alt="Ignews" width="26px" />
                 <nav>
                     <ActiveLink activeClassname={styles.active} href="/">
                         <a>Home</a>
