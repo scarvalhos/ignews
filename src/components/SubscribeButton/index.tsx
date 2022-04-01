@@ -4,6 +4,11 @@ import { api } from '../../services/api';
 import { getStripeJs } from '../../services/stripe-js';
 import styles from './styles.module.scss'
 
+interface SubscribeResponseData {
+    data: {
+        sessionId: string;
+    }
+}
 
 export function SubscribeButton() {
     const { data: session } = useSession()
@@ -23,7 +28,7 @@ export function SubscribeButton() {
         }
 
         try {
-            const response = await api.post('/subscribe')
+            const response: SubscribeResponseData = await api.post('/subscribe')
 
             const { sessionId } = response.data;
 
