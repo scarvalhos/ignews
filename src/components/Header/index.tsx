@@ -12,10 +12,10 @@ export function Header() {
             <div className={styles.headerContent}>
                 <img src="/images/logo.svg" alt="Ignews" />
                 <nav>
-                    <ActiveLink activeClassname={styles.active} href="/">
+                    <ActiveLink activeClassname={styles.active} href="/" passHref shouldMatchExactHref={true}>
                         <a>Home</a>
                     </ActiveLink>
-                    <ActiveLink activeClassname={styles.active} href="/posts">
+                    <ActiveLink activeClassname={styles.active} href="/posts" passHref shouldMatchExactHref={false}>
                         <a>Posts</a>
                     </ActiveLink>
                 </nav>
