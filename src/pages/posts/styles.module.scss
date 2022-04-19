@@ -6,9 +6,9 @@
 
 .posts {
     max-width: 720px;
-    margin: 5rem auto 0;
+    margin: 5rem auto;
 
-    a{
+    a {
         display: block;
         cursor: pointer;
 
@@ -19,7 +19,7 @@
         }
 
         time {
-            font-size: 1rem;
+            font-size: 0.8rem;
             display: flex;
             align-items: center;
             color: var(--gray-300);

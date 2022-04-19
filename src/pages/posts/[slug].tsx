@@ -19,7 +19,9 @@ interface PostProps {
 export default function Post({ post }: PostProps) {
     return (
         <>
-            <Head>{post.slug} | Ignews</Head>
+            <Head>
+                <title>{post.title} | Ignews</title>
+            </Head>
             <main className={styles.container}>
                 <article className={styles.post}>
                     <h1>{post.title}</h1>
